@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Phudu", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0);
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  border: 0;
+  margin: 0;
+}
+
+.navbar-brand {
+  font-family: "Ultra", sans-serif;
+  color: rgb(216, 14, 14);
+}
+
+.navbar-nav,
+li {
+  float: right;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+}
+
+.navbar-nav .collapse,
+.navbar-collapse {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.navbar-container {
+  border-bottom: 2px solid;
+  color: rgb(216, 14, 14);
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: rgb(216, 14, 14);
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.navbar-toggler {
+  color: rgb(216, 14, 14);
+  border: 0.5px solid;
+}
+
+/* Navbar */
+
+/* Callout */
+
+.callout {
+  z-index: 1;
+}
+
+.callout-container {
+  height: 87vh;
+
+  background: url(Images/main-photo.jpeg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron {
+  margin-bottom: 70px;
+  font-family: "Ultra", sans-serif;
+  color: #f4f4f4;
+}
+
+.jumbo-header {
+  margin-bottom: 0;
+}
+
+.jumbo-text {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+/* BUTTON Styles */
+.btn {
+  background: black;
+  color: rgb(216, 14, 14);
+  border: 1.5px solid rgb(216, 14, 14);
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:active:focus {
+  background: black;
+  color: rgb(216, 14, 14);
+}
+
+/*  FOOTER and SOCIALS */
+.footer-container {
+  padding-top: 12px;
+  border-top: 2px solid rgb(216, 14, 14);
+}
+
+.social-color {
+  color: rgb(216, 14, 14);
+}
