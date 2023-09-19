@@ -7,7 +7,8 @@ body {
   font-family: "Phudu", sans-serif;
   margin: 0;
   padding: 0;
-  background: rgb(0, 0, 0);
+  height: 100%;
+  background: #e6e6e6;
 }
 
 /* Navbar */
@@ -30,7 +31,6 @@ li {
   float: right;
   text-align: right;
   font-size: 16px;
-  font-weight: 500;
   /* text-transform: uppercase; */
 }
 
@@ -73,7 +73,7 @@ li {
 .callout-container {
   height: 87vh;
 
-  background: url(Images/main-photo.jpeg) no-repeat center fixed;
+  background: url(images/golf2.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -96,18 +96,23 @@ li {
 }
 
 .jumbotron {
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
   font-family: "Ultra", sans-serif;
-  color: #f4f4f4;
 }
 
-.jumbo-header {
+#home-header {
   margin-bottom: 0;
+  color: #e6e6e6;
+  font-family: "Phudu", sans-serif;
+  font-size: 3rem;
 }
 
-.jumbo-text {
+#home-text {
   font-size: 12px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  color: #e6e6e6;
+  font-family: "Phudu", sans-serif;
+  font-size: 1rem;
 }
 
 /* BUTTON Styles */
@@ -115,6 +120,8 @@ li {
   background: black;
   color: rgb(216, 14, 14);
   border: 1.5px solid rgb(216, 14, 14);
+  font-family: "Phudu", sans-serif;
+  font-weight: 600;
 }
 
 .btn:hover,
@@ -125,12 +132,264 @@ li {
   color: rgb(216, 14, 14);
 }
 
+.about-btn {
+  text-decoration: none;
+  color: rgb(216, 14, 14);
+}
+
+/* ABOUT and GALLERY */
+
+#about-subhead {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  font-family: "Phudu", sans-serif;
+}
+
+#about-text {
+  font-size: 1rem;
+}
+
+#gallery-header h1 {
+  margin: 20px 0 30px 0;
+}
+
+#gallery-details img {
+  border-radius: 5px;
+  border: 1px solid rgba(216, 14, 14, 0.4);
+}
+
+.about-container,
+.gallery-container {
+  background-color: #e6e6e6;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 40px;
+}
+
+.gallery-container {
+  padding: 50px;
+}
+
+.gallery-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.gallery-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .gallery-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gallery-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.gallery-section {
+  background-color: #e6e6e6;
+  padding: 10px 0 40px 0;
+}
+
+/* OPEN CHAMPIONSHIPS */
+
+.open-header {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+/* background linear gradient copied from stackoverflow. https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image/36679903#36679903  */
+.open-container {
+  background: url(images/openchampimage3.jpg) no-repeat center,
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 20px; */
+  color: #e6e6e6;
+}
+
+.gallery-title {
+  font-size: 3rem;
+  margin: 20px 20px 0px 20px;
+  font-weight: 700;
+  font-family: "Phudu", sans-serif;
+}
+
+.gallery-header {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Phudu", sans-serif;
+}
+
+.open-title {
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* used from stackoverflow */
+
+#open-details {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 10px 10px 50px 10px;
+}
+
+#open-details img {
+  width: 200px;
+  height: 200px;
+}
+
+#open-details p {
+  margin: 5px;
+}
+
+#open-details div {
+  margin-bottom: 20px;
+}
+
+/* GALLERY MEDIA QUERIES */
+
+/* @media screen and (max-width: 300px) {
+  .gallery-images {
+    flex: 25%;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-images {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .gallery-images {
+    flex: 25%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gallery-images {
+    flex: 50%;
+    max-width: 100%;
+  }
+} */
+
+/* MEMBERS AREA */
+
+/* .members-callout {
+  padding: 10px;
+} */
+
+.members-container {
+  padding: 50px 40px 40px 40px;
+  height: 100vh;
+  margin: auto;
+
+  background: url(images/golf2.jpg) no-repeat center,
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  background-size: cover;
+
+  /* background: url(images/golf2.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.form-container {
+  margin: auto;
+  width: 90%;
+  height: 55%;
+  padding: 10px;
+  position: relative;
+}
+
+.label-color {
+  color: white;
+}
+
+.apply-container {
+  padding: 15px;
+  margin: auto;
+}
+
+.apply-header {
+  text-align: center;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.apply-text {
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.app-download {
+  background-color: #e6e6e6;
+  color: rgb(216, 14, 14);
+  font-weight: 700;
+  padding: 2px;
+  margin-top: 5px;
+}
+
 /*  FOOTER and SOCIALS */
 .footer-container {
-  padding-top: 12px;
   border-top: 2px solid rgb(216, 14, 14);
+  background: black;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100vw;
 }
 
 .social-color {
   color: rgb(216, 14, 14);
+}
+
+#footer-details {
+  padding: 10px;
+}
+/* LINEBREAKS */
+
+#line-break {
+  border-bottom: 1px solid rgb(216, 14, 14);
 }

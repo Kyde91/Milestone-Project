@@ -38,7 +38,7 @@
         class="navbar navbar-dark sticky-top navbar-expand-lg bg-body-tertiary"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">BANDICAPS</a>
+          <a class="navbar-brand" href="index.html">BANDICAPS</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -56,7 +56,7 @@
           >
             <ul class="navbar-nav">
               <li class="navbar-item">
-                <a class="nav-link active" aria-current="page" href="Index.html"
+                <a class="nav-link active" aria-current="page" href="index.html"
                   >Home</a
                 >
               </li>
@@ -74,7 +74,7 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="members.html"
+                  href="memebers.html"
                   >Members</a
                 >
               </li>
@@ -83,35 +83,71 @@
         </div>
       </nav>
     </div>
-
     <!--TITLE and BACKGROUND IMAGE-->
-    <div class="container-fluid callout-container">
-      <div class="opaque-overlay">&nbsp;</div>
-      <div class="callout">
-        <div class="row">
-          <div class="col-12">
-            <section class="callout jumbotron text-center">
-              <h1 id="home-header">BANDICAPS</h1>
-              <p id="home-text">GOLF SOCIETY</p>
-              <button
-                type="button"
-                class="btn btn-sm"
-                style="
-                  --bs-btn-padding-y: 0.5rem;
-                  --bs-btn-padding-x: 6rem;
-                  --bs-btn-font-size: 0.8rem;
-                "
-              >
-                <a href="gallery.html" class="about-btn">ABOUT US</a>
-              </button>
-            </section>
-          </div>
+    <!-- form inspired from https://getbootstrap.com/docs/5.3/forms/layout/ -->
+    <section class="container-fluid members-container">
+      <div class="form-container">
+          <div class="row">
+            <div class="callout jumbotron text-center">
+              <h1 id="home-header">MEMBERS</h1>
+              <p id="home-text">Sign in!</p>
+            </div>
+            <form>
+              <div class="row mb-3">
+                <div class="col-sm-10">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail3"
+                    placeholder="Email / Username"
+                  />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-sm-10">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword3"
+                    placeholder="Password"
+                  />
+                </div>
+              </div>
+                </div>
+              </fieldset>
+              <div class="row mb-3">
+                <div class="col-sm-10 offset-sm-2">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label class="form-check-label label-color" for="gridCheck1">
+                      Remember this device!
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="text-center">
+            <button type="button" class="btn btn-primary mx-auto"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 4rem; --bs-btn-font-size: .75rem;">
+  Log In
+</button>
+</div>
         </div>
       </div>
+      <div id="line-break"></div>
     </div>
-
+        <div class=" container-fluid apply-container">
+          <h1 class="apply-header">Want to become a member?</h1>   
+<p class="apply-text">
+Join our relaxed golf society for a laid-back approach to the game. We welcome golfers of all levels, emphasizing fun over competition. Enjoy easygoing rounds, friendly banter, and a welcoming community. Whether you're a seasoned pro or new to golf, apply now and experience golfing camaraderie like never before. <a href="#" class="app-download">Download Application Form<i class="fa-solid fa-download fa-xs"></i></a></p>
+      </div>
+      </div>
+    </section>
     <!-- FOOTER and SOCIALS -->
-
     <footer class="container-fluid text-center footer-container">
       <div id="footer-details" class="row">
         <div class="col">
