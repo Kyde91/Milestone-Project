@@ -1,39 +1,64 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Bandicaps Golf Society website and members log in - HTML, CSS, Bootstrap.
 
-Welcome,
+## 3 page static website written in HMTL, CSS and Bootstrap. Small project for a Golf Society.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is my first milestone project for CodeInstitute. The requirements are to create a 3 page static website using HTML and CSS (Boostrap and other libraries are optional). This is a website for a local golf society that I am a part of, it showcases a relaxed approach to a technically demanding sport. The website explains who and what the society are, it holds a gallery, information on the next events and options to become a member. The website was created with a mobile first approach.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+The website is made of of 3 pages:
 
-## Codeanywhere Reminders
+# Home - 1st page
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+When creating the initial wireframes for the Home page, I wanted the user to have a good first impression. The page needed to feel welcoming but also interesting with a simple and sleek design. It would be hard for someone who doesn't know what a golf society is to understand what this website could be if it was to 'busy' on the first page, having gained the interest of the user I have made it easy for them to find out more through the 'about us' button.
 
-`python3 -m http.server`
+- Background image: I chose this image as it replicates what the bandicaps are. A Golf Society that take a laid back approach to the sport. The picture shows a Golf club, Golf ball, Golf glove, A glass of whiskey(with an orange in) and a bottle of Whiskey.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- Centered large title
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- Clickable button that takes you to the 'Gallery' where the user can find out more.
 
-`http_server`
+# Gallery
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The page starts with a simple header and subheader with following text that explains what and who the 'BANDICAPS' are. The gallery is a visual representation of what the 'about us' paragraph explains. I want the gallery to give the user a sense of commamadarie when viewing the gallery, this is where the user gets to see the members of the society doing what they love. I wanted it to showcase the value of having a good time whilst playing golf. The page then finished with the 'The Bandicaps Open' which gives a brief look into the competitions that are held in the society. I used styled line breaks to separate the about us and gallery.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- about us header and paragraph - following on from the homepage styling, I didn't want to make this page look busy. I made it so the user has a simple but informative paragraph to read.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Gallery - I chose images that represented a good social time with healthy competition. The layout was difficult however I opted to use bootstrap for the gallery image positioning. Initially I used a responsive image template on bootstrap but I couldn't re-size the images to scale correctly.
 
-To log into the Heroku toolbelt CLI:
+- The Bandicaps Open - The bandicaps open is why the bandicaps are a golf society, it is the main event for the bandicaps where all members get together and play a golf tournament. I have made this section for users to get a glimpse of what competition is like in the golf society. it tells the user where the previous open was played, the current champion and where the next open is to be played.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Members
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+This is a Members Log in section combined with a member application option.
 
----
+- Form - I used a template from boostrap for the form. a simple floating design that gives the user and option to keep their device logged in.
 
-Happy coding!
+- Member application - An option to become a member by downloading an application form (fake application form).
+
+# Navbar
+
+I used a responsive navbar from bootstrap template. a simple design with branding and navigation.
+
+# footer
+
+The footer is a simple 4 column boostrap template that I customised to showcase the golf society socials.
+
+# Color Schemes
+
+The main colour scheme consists of a solid black (rgb(0, 0, 0)) & a slightly dark shade of red (rgb(216, 14, 14)). Initially i had used a bright red for the site however it was too bright so I opted for the darker which i beleive it easier to look at.
+
+Other colours include (#e6e6e6) for the gallery background, again to make the page easier to view.
+Black rgb(0,0,0)
+Red rgb(216,14,14)
+Grey (#e6e6e6)
+
+# Fonts
+
+I used google fonts.
+
+I chose 'Ultra' for the bandicaps branding and headers in the navbar as it gives a 'Wild West feel' incorporating the name 'Bandit' which is what bandicaps is Bandit + Golf Handicap.
+
+I have used 'Oswald' for paragraphs and subheadings. I beleive it fits well with 'Ultra', it doesn't make 'Ultra' look out of place and is an easy font to read.
+
+# Images
+
+All images where used from Unsplash.com
