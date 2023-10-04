@@ -268,14 +268,12 @@ li {
   padding: 50px 40px 40px 40px;
   height: 100vh;
   margin: auto;
-
   background: url(../images/Golf-Group.jpg) no-repeat center,
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
   background-size: cover;
   align-items: center;
   justify-content: center;
-
   position: relative;
 }
 
@@ -404,6 +402,17 @@ li {
   .gallery-column {
     flex: 50%;
     max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #about-text p {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  #gallery-details img {
+    margin: 10px;
   }
 }
 
