@@ -196,22 +196,7 @@ li {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1200px) {
-  .gallery-column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .gallery-column {
-    flex: 100%;
-    max-width: 100%;
-  }
+  background-size: cover;
 }
 
 .gallery-section {
@@ -236,7 +221,6 @@ li {
   bottom: 0;
   width: 100%;
   margin: 0 auto;
-  /* padding: 20px; */
   color: #e6e6e6;
   border-top: 2px solid rgba(216, 14, 14);
 }
@@ -342,11 +326,6 @@ li {
   position: relative;
 }
 
-/* #form-details {
-  width: 70%;
-  margin: auto;
-} */
-
 #members-header {
   margin-bottom: 0;
   color: #e6e6e6;
@@ -362,34 +341,10 @@ li {
   font-size: 1rem;
 }
 
-/* MEMBERS MEDIA QUERIES */
-@media screen and (max-width: 320px) {
-  #home-header {
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .apply-text {
-    font-size: 14px;
-  }
-
-  .members-container {
-    padding: 5px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  #form-details {
-    width: 50%;
-    margin: auto;
-  }
-
-  .apply-text {
-    width: 75%;
-    margin: auto;
-    height: 100%;
-  }
+.apply-text {
+  width: 75%;
+  margin: auto;
+  height: 100%;
 }
 
 /*  FOOTER and SOCIALS */
@@ -415,4 +370,45 @@ li {
   border-bottom: 1px solid rgb(216, 14, 14);
   width: 80%;
   margin: auto;
+}
+
+/* MEMBERS MEDIA QUERIES */
+@media screen and (max-width: 320px) {
+  #home-header {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .apply-text {
+    font-size: 14px;
+  }
+
+  .members-container {
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #form-details {
+    width: 50%;
+    margin: auto;
+  }
+}
+/* GALLERY MEDIA QUERIES */
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .gallery-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .gallery-column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
