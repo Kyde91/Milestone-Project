@@ -281,7 +281,7 @@ li {
   margin: auto;
   margin-bottom: 30px;
   width: 90%;
-  height: 50%;
+  height: 40%;
   padding: 10px;
   position: relative;
 }
@@ -372,9 +372,13 @@ li {
 }
 
 /* MEMBERS MEDIA QUERIES */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   #home-header {
     font-size: 2.5rem;
+  }
+
+  #members-header {
+    font-size: 2rem;
   }
 }
 
