@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #e6e6e6;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  border: 0;
+  margin: 0;
+}
+
+.navbar-brand {
+  font-family: "Ultra", sans-serif;
+  color: rgb(216, 14, 14);
+}
+
+.navbar-nav,
+li {
+  float: right;
+  text-align: right;
+  font-size: 16px;
+}
+
+.navbar-nav .collapse,
+.navbar-collapse {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.navbar-container {
+  border-bottom: 2px solid;
+  color: rgb(216, 14, 14);
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: rgb(216, 14, 14);
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.navbar-toggler {
+  color: rgb(216, 14, 14);
+  border: 0.5px solid;
+}
+
+/* Navbar */
+
+/* Callout */
+
+.callout {
+  z-index: 1;
+}
+
+.callout-container {
+  height: 87vh;
+
+  background: url(../images/golf2.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron {
+  font-family: "Ultra", sans-serif;
+}
+
+#home-header {
+  margin-bottom: 0;
+  color: #e6e6e6;
+  font-family: "Ultra", sans-serif;
+  font-size: 3rem;
+}
+
+#home-text {
+  font-size: 12px;
+  margin-bottom: 15px;
+  color: #e6e6e6;
+  font-family: "Ultra", sans-serif;
+  font-size: 1rem;
+}
+
+/* BUTTON Styles */
+.btn {
+  background: black;
+  color: rgb(216, 14, 14);
+  border: 1.5px solid rgb(216, 14, 14);
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:active:focus {
+  background: black;
+  color: rgb(216, 14, 14);
+}
+
+.about-btn {
+  text-decoration: none;
+  color: rgb(216, 14, 14);
+}
+
+/* ABOUT and GALLERY */
+
+#about-subhead {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  font-family: "Oswald", sans-serif;
+}
+
+#about-text {
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+#gallery-header h1 {
+  margin: 50px 0 50px 0;
+}
+
+#gallery-details img {
+  border-radius: 5px;
+  border: 1px solid rgba(216, 14, 14, 0.4);
+  width: 15rem;
+  height: 18rem;
+}
+
+.about-container,
+.gallery-container {
+  background-color: #e6e6e6;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 40px;
+}
+
+.gallery-container {
+  height: 100%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.gallery-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 30px 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.gallery-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  background-size: cover;
+}
+
+.gallery-section {
+  background-color: #e6e6e6;
+  padding: 10px 0 40px 0;
+}
+
+/* OPEN CHAMPIONSHIPS */
+
+.open-header {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+/* background linear gradient copied from stackoverflow. https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image/36679903#36679903  */
+.open-container {
+  background: url(../images/golfballfield.jpg) no-repeat center,
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  color: #e6e6e6;
+  border-top: 2px solid rgba(216, 14, 14);
+}
+
+.gallery-title {
+  font-size: 3rem;
+  margin: 20px 20px 0px 20px;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+}
+
+.gallery-header {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+}
+
+.open-title {
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#open-details {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 10px 10px 50px 10px;
+}
+
+#open-details img {
+  width: 200px;
+  height: 200px;
+}
+
+#open-details p {
+  margin: 5px;
+}
+
+#open-details div {
+  margin-bottom: 20px;
+}
+
+.members-container {
+  padding: 50px 40px 40px 40px;
+  height: 100vh;
+  margin: auto;
+
+  background: url(../images/Golf-Group.jpg) no-repeat center,
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.form-container {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 90%;
+  height: 50%;
+  padding: 10px;
+  position: relative;
+}
+
+.label-color {
+  color: white;
+}
+
+.apply-container {
+  padding: 15px;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.apply-header {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.apply-container > p {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.app-download {
+  color: rgb(216, 14, 14);
+  font-weight: 400;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+.remember-device {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+#members-header {
+  margin-bottom: 0;
+  color: #e6e6e6;
+  font-family: "Ultra", sans-serif;
+  font-size: 3rem;
+}
+
+#members-text {
+  font-size: 12px;
+  margin-bottom: 15px;
+  color: #e6e6e6;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+}
+
+.apply-text {
+  width: 75%;
+  margin: auto;
+  height: 100%;
+}
+
+/*  FOOTER and SOCIALS */
+.footer-container {
+  border-top: 2px solid rgb(216, 14, 14);
+  background: black;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+}
+
+.social-color {
+  color: rgb(216, 14, 14);
+}
+
+#footer-details {
+  padding: 10px;
+}
+
+/* LINEBREAKS */
+
+#line-break {
+  border-bottom: 1px solid rgb(216, 14, 14);
+  width: 80%;
+  margin: auto;
+}
+
+/* MEMBERS MEDIA QUERIES */
+@media screen and (max-width: 320px) {
+  #home-header {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .apply-text {
+    font-size: 14px;
+  }
+
+  .members-container {
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #form-details {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+/* GALLERY MEDIA QUERIES */
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .gallery-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .gallery-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
