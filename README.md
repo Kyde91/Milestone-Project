@@ -6,9 +6,13 @@
 
 This is my first milestone project for CodeInstitute. The requirements are to create a 3 page static website using HTML and CSS (Boostrap and other libraries are optional). This is a website for a local golf society that I am a part of, it showcases a relaxed approach to a technically demanding sport. The website explains who and what the society are, it holds a gallery, information on the next events and options to become a member. The website was created with a mobile first approach.
 
+# Contents
+
+- [Home](#home)
+
 The website is made of of 3 pages:
 
-# Home - 1st page
+# Home
 
 When creating the initial wireframes for the Home page, I wanted the user to have a good first impression. The page needed to feel welcoming but also interesting with a simple and sleek design. It would be hard for someone who doesn't know what a golf society is to understand what this website could be if it was to 'busy' on the first page, having gained the interest of the user I have made it easy for them to find out more through the 'about us' button.
 
