@@ -217,3 +217,12 @@ W3C was used to validate HTML on all 3 pages - Passed!
 ## Lighthouse performance statistics
 
 ![Alt text](assets/images/performance.lighthouse.png)
+
+# Future Features
+
+Last but not least, future features. I aim to give this site more components and functionality through the following ideas:
+
+- Profiles for members. They will be able to log in update their information such as Handicap, Best round, how many championships.
+- Live leaderboard for 'The Bandicaps Open'.
+- Downloadable application form
+- Social Events page
