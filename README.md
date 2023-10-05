@@ -145,11 +145,13 @@ Bootstrap & GitHub
 
 I deployed my website using GitPages. To do this, the steps are as follows:
 
-(I documented any changes through VS source control tan)
+(I documented any changes through VS source control tab)
 
-- Once you have made changes to your code, click the Source Control tab in the activity bar.![Alt text](assets/images/sourcecontrol.png)
+- Once you have made changes to your code, click the Source Control tab in the activity bar. ![Alt text](assets/images/sourcecontrol.png)
 - Select the changes you wish to commit by clicking the + symbol next to the file name (you can commit seperate changes in one push to the respository)
-- Once you have given a message to all of the committed changes you will see a 'Sync' option. Click that to push the code to your git repository.
+- Once you have given a message to all of the committed changes you will see a 'Sync' option. Click that to push the code to your git repository. ![Alt text](assets/images/syncchanges.png)
+- Go to your repository, you will see that the changes have been made. on the right side of the main branch you should see the 'Deployments link'. ![Alt text](assets/images/deploymentstab.png)
+- From there you can click on the link to you deployed website. You can also take a look at the history of deployments. ![Alt text](assets/images/link.png)
 
 ## How to Clone
 
