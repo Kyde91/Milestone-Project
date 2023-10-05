@@ -118,3 +118,26 @@ Gallery Page across all devices
 Members Page across all devices
 
 ![Alt text](assets/images/members.WF.png)
+
+# Technologies used:
+
+## Languages used:
+
+## Frameworks and Libraries:
+
+# Deployment
+
+# Testing & Validation:
+
+## Jigsaw CSS Validator
+
+I used Jigsaw to validate CSS code - Passed!
+
+![Alt text](<assets/images/CSS Validation.png>)
+
+## W3C Validator
+
+W3C was used to validate HTML on all 3 pages - Passed!
+
+![Alt text](assets/images/home.val.png)
+![Alt text](assets/images/home.val.pass.png)

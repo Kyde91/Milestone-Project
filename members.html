@@ -11,9 +11,12 @@
       crossorigin="anonymous"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,700&family=Oswald:wght@300;400;500;600;700&family=Phudu:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&family=Ultra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,700&family=Oswald:wght@300;400;500;600;700&family=Phudu:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/styles/style.css" />
     <link
       rel="stylesheet"
@@ -83,95 +86,116 @@
     <!-- form inspired from https://getbootstrap.com/docs/5.3/forms/layout/ -->
     <section class="container-fluid members-container">
       <div class="form-container">
-          <div class="row">
-            <div class="callout jumbotron text-center">
-              <h1 id="members-header">MEMBERS</h1>
-              <p id="members-text">Sign in</p>
+        <div class="row">
+          <div class="callout jumbotron text-center">
+            <h1 id="members-header">MEMBERS</h1>
+            <p id="members-text">Sign in</p>
+          </div>
+          <form
+            id="form-details"
+            method="POST"
+            action="https://formdump.codeinstitute.net"
+            aria-label="Inquiry Form"
+          >
+            <div class="row mb-3 d-flex justify-content-center">
+              <div class="col-sm-10">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="inputEmail3"
+                  placeholder="Email"
+                  required
+                />
+              </div>
             </div>
-            <form id="form-details" method="POST" action="https://formdump.codeinstitute.net" aria-label="Inquiry Form">
-              <div class="row mb-3 d-flex justify-content-center">
-                <div class="col-sm-10">
+            <div class="row mb-3 d-flex justify-content-center">
+              <div class="col-sm-10">
+                <input
+                  type="password"
+                  name="password"
+                  class="form-control"
+                  id="inputPassword3"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div
+                class="col-sm-10 d-flex justify-content-center remember-device"
+              >
+                <div class="form-check">
                   <input
-                    type="email"
-                    name="email"
-                    class="form-control"
-                    id="inputEmail3"
-                    placeholder="Email"
-                    required
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck1"
                   />
+                  <label class="form-check-label label-color" for="gridCheck1">
+                    Remember this device!
+                  </label>
                 </div>
               </div>
-              <div class="row mb-3 d-flex justify-content-center">
-                <div class="col-sm-10">
-                  <input
-                    type="password"
-                    name="password"
-                    class="form-control"
-                    id="inputPassword3"
-                    placeholder="Password"
-                    required
-                  />
-                </div>
-              </div>
-                </div>
-              <div class="row mb-3">
-                <div class="col-sm-10 d-flex justify-content-center remember-device">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="gridCheck1"
-                    />
-                    <label class="form-check-label label-color" for="gridCheck1">
-                      Remember this device!
-                    </label>
-                  </div>
-                </div>
-              </div>
+            </div>
             <div class="text-center">
-            <button type="submit" class="btn btn-primary mx-auto" value="Submit"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 4rem; --bs-btn-font-size: .75rem;">
-  Log In
-</button>
-</form>
-</div>
+              <button
+                type="submit"
+                class="btn btn-primary mx-auto"
+                value="Submit"
+                style="
+                  --bs-btn-padding-y: 0.25rem;
+                  --bs-btn-padding-x: 4rem;
+                  --bs-btn-font-size: 0.75rem;
+                "
+              >
+                Log In
+              </button>
+            </div>
+          </form>
         </div>
       </div>
+
       <div id="line-break"></div>
-    </div>
-        <div class=" container-fluid apply-container">
-          <h1 class="apply-header">Want to become a member?</h1>   
-<p class="apply-text">
-Join our relaxed golf society for a laid-back approach to the game. We welcome golfers of all levels, emphasizing fun over competition. Enjoy easygoing rounds, friendly banter, and a welcoming community. Whether you're a seasoned pro or new to golf, apply now and experience golfing camaraderie like never before. 
-<br>
-<a href="#" class="app-download">Download Application Form <i class="fa-solid fa-download fa-xs"></i></a></p>
-      </div>
+      <div class="container-fluid apply-container">
+        <h1 class="apply-header">Want to become a member?</h1>
+        <p class="apply-text">
+          Join our relaxed golf society for a laid-back approach to the game. We
+          welcome golfers of all levels, emphasizing fun over competition. Enjoy
+          easygoing rounds, friendly banter, and a welcoming community. Whether
+          you're a seasoned pro or new to golf, apply now and experience golfing
+          camaraderie like never before.
+          <br />
+          <a href="#" class="app-download"
+            >Download Application Form <i class="fa-solid fa-download fa-xs"></i
+          ></a>
+        </p>
       </div>
     </section>
-<!-- FOOTER and SOCIALS - links to all socials-->
-<footer class="container-fluid text-center footer-container">
-  <div id="footer-details" class="row">
-    <div class="col">
-      <a href="https://www.instagram.com" target="_blank"
-        ><i class="fa-brands fa-instagram fa-xl social-color"></i
-      ></a>
-    </div>
-    <div class="col">
-      <a href="https://www.facebook.com" target="_blank"
-        ><i class="fa-brands fa-facebook-f fa-xl social-color"></i
-      ></a>
-    </div>
-    <div class="col">
-      <a href="https://www.twitter.com" target="_blank"
-        ><i class="fa-brands fa-twitter fa-xl social-color"></i
-      ></a>
-    </div>
-    <div class="col">
-      <a href="https://www.youtube.com" target="_blank"
-        ><i class="fa-brands fa-youtube fa-xl social-color"></i
-      ></a>
-    </div>
-  </div>
-</footer>
+
+    <!-- FOOTER and SOCIALS - links to all socials-->
+    <footer class="container-fluid text-center footer-container">
+      <div id="footer-details" class="row">
+        <div class="col">
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fa-brands fa-instagram fa-xl social-color"></i
+          ></a>
+        </div>
+        <div class="col">
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fa-brands fa-facebook-f fa-xl social-color"></i
+          ></a>
+        </div>
+        <div class="col">
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class="fa-brands fa-twitter fa-xl social-color"></i
+          ></a>
+        </div>
+        <div class="col">
+          <a href="https://www.youtube.com" target="_blank"
+            ><i class="fa-brands fa-youtube fa-xl social-color"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
