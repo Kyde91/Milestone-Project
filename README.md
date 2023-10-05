@@ -2,6 +2,8 @@
 
 ## 3 page static website written in HMTL, CSS and Bootstrap. Small project for a Golf Society.
 
+![Alt text](amiresponsive.png)
+
 This is my first milestone project for CodeInstitute. The requirements are to create a 3 page static website using HTML and CSS (Boostrap and other libraries are optional). This is a website for a local golf society that I am a part of, it showcases a relaxed approach to a technically demanding sport. The website explains who and what the society are, it holds a gallery, information on the next events and options to become a member. The website was created with a mobile first approach.
 
 The website is made of of 3 pages:
