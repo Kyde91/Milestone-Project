@@ -23,6 +23,12 @@ This is my first milestone project for CodeInstitute. The requirements are to cr
 - [Fonts](#fonts)
 - [Images](#images)
 - [Wireframes](#wireframes)
+- [Technologies used](#technologies-used)
+- [Languages used](#languages-used)
+- [Frameworks and Libraries](#frameworks-and-libraries)
+- [Deployment](#deployment)
+- [Testing & Validation](#testing--validation)
+- [Performance](#performance)
 
 The website is made of of 3 pages:
 
