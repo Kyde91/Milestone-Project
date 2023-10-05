@@ -90,3 +90,12 @@ I have used 'Oswald' for paragraphs and subheadings. I beleive it fits well with
 All images where used from Unsplash.com
 
 # Wireframes
+
+Home page across all devices
+![Alt text](assets/images/homepage.WF.png)
+
+Gallery Page across all devices
+![Alt text](assets/images/Gallery.WF.png)
+
+Members Page across all devices
+![Alt text](assets/images/members.WF.png)
