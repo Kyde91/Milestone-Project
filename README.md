@@ -36,15 +36,23 @@ When creating the initial wireframes for the Home page, I wanted the user to hav
 
 - Clickable button that takes you to the 'Gallery' where the user can find out more.
 
+![Alt text](assets/images/homepage.feat.png)
+
 # Gallery
 
 The page starts with a simple header and subheader with following text that explains what and who the 'BANDICAPS' are. The gallery is a visual representation of what the 'about us' paragraph explains. I want the gallery to give the user a sense of commamadarie when viewing the gallery, this is where the user gets to see the members of the society doing what they love. I wanted it to showcase the value of having a good time whilst playing golf. The page then finished with the 'The Bandicaps Open' which gives a brief look into the competitions that are held in the society. I used styled line breaks to separate the about us and gallery.
 
 - about us header and paragraph - following on from the homepage styling, I didn't want to make this page look busy. I made it so the user has a simple but informative paragraph to read.
 
+![Alt text](assets/images/aboutus.feat.png)
+
 - Gallery - I chose images that represented a good social time with healthy competition. The layout was difficult however I opted to use bootstrap for the gallery image positioning. Initially I used a responsive image template on bootstrap but I couldn't re-size the images to scale correctly.
 
+![Alt text](assets/images/gallery.feat.png)
+
 - The Bandicaps Open - The bandicaps open is why the bandicaps are a golf society, it is the main event for the bandicaps where all members get together and play a golf tournament. I have made this section for users to get a glimpse of what competition is like in the golf society. it tells the user where the previous open was played, the current champion and where the next open is to be played.
+
+![Alt text](assets/images/open.feat.png)
 
 # Members
 
@@ -52,15 +60,23 @@ This is a Members Log in section combined with a member application option.
 
 - Form - I used a template from boostrap for the form. a simple floating design that gives the user and option to keep their device logged in.
 
-- Member application - An option to become a member by downloading an application form (fake application form).
+![Alt text](assets/images/members.feat.png)
 
 # Navbar
 
 I used a responsive navbar from bootstrap template. a simple design with branding and navigation.
 
+![Alt text](assets/images/Navbar.feat.png)
+
+Responsive Navbar
+
+![Alt text](assets/images/navbarmob.feat.png)
+
 # footer
 
 The footer is a simple 4 column boostrap template that I customised to showcase the golf society socials.
+
+![Alt text](assets/images/footer.feat.png)
 
 # Color Schemes
 
@@ -92,10 +108,13 @@ All images where used from Unsplash.com
 # Wireframes
 
 Home page across all devices
+
 ![Alt text](assets/images/homepage.WF.png)
 
 Gallery Page across all devices
+
 ![Alt text](assets/images/Gallery.WF.png)
 
 Members Page across all devices
+
 ![Alt text](assets/images/members.WF.png)
