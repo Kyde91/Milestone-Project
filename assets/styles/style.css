@@ -64,8 +64,6 @@ li {
   border: 0.5px solid;
 }
 
-/* Navbar */
-
 /* Callout */
 
 .callout {
@@ -139,7 +137,6 @@ li {
 }
 
 /* ABOUT and GALLERY */
-
 #about-subhead {
   font-size: 1.5rem;
   margin-bottom: 0;
@@ -205,7 +202,6 @@ li {
 }
 
 /* OPEN CHAMPIONSHIPS */
-
 .open-header {
   font-size: 24px;
   font-weight: 600;
@@ -364,7 +360,6 @@ li {
 }
 
 /* LINEBREAKS */
-
 #line-break {
   border-bottom: 1px solid rgb(216, 14, 14);
   width: 80%;
@@ -400,7 +395,6 @@ li {
 }
 
 /* GALLERY MEDIA QUERIES */
-
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1200px) {
   .gallery-column {
