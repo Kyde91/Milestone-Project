@@ -121,13 +121,42 @@ Members Page across all devices
 
 # Technologies used:
 
+- GitHub - Used for storage of the website and publishing online.
+- VScode - The IDE used for editing code and pushing changes
+- HTML5 - Core website built in HTML5
+- CSS - Used to style the website layout and imagery
+- Bootstrap - Bootstrap was used for structuring of certian features such as Navbar, Footer and Gallery
+- Font Awesome - Used for Icon styling
+- Unsplash - Used to generate images
+
 ## Languages used:
 
+HTML, CSS, JavaScript
+
 ## Frameworks and Libraries:
+
+Bootstrap & GitHub
 
 # Deployment
 
 # Testing & Validation:
+
+## Manual testing
+
+Manual testing conducted
+
+- Navbar
+
+* Navlinks
+
+- Footer
+
+* Social Media Links
+
+- Members
+
+* Form posts
+* form validation works
 
 ## Jigsaw CSS Validator
 
@@ -141,3 +170,9 @@ W3C was used to validate HTML on all 3 pages - Passed!
 
 ![Alt text](assets/images/home.val.png)
 ![Alt text](assets/images/home.val.pass.png)
+
+# Performance
+
+## Lighthouse performance statistics
+
+![Alt text](assets/images/performance.lighthouse.png)
