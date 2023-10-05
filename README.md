@@ -29,6 +29,7 @@ This is my first milestone project for CodeInstitute. The requirements are to cr
 - [Deployment](#deployment)
 - [Testing & Validation](#testing--validation)
 - [Performance](#performance)
+- [Future Features](#future-features)
 
 # Home
 
