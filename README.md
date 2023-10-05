@@ -6,6 +6,12 @@
 
 This is my first milestone project for CodeInstitute. The requirements are to create a 3 page static website using HTML and CSS (Boostrap and other libraries are optional). This is a website for a local golf society that I am a part of, it showcases a relaxed approach to a technically demanding sport. The website explains who and what the society are, it holds a gallery, information on the next events and options to become a member. The website was created with a mobile first approach.
 
+# User Stories
+
+- I am Low handicap golfer who is looking to make friends and play regularly, however I do love to play competitively.
+- I am High handicap golfer who is looking to improve but not take the game to seriously.
+- I am a golfer who is a part of many golf society's, looking to have fun whilst playing the game I love.
+
 # Contents
 
 - [Home](#home)
@@ -16,6 +22,7 @@ This is my first milestone project for CodeInstitute. The requirements are to cr
 - [Color Schemes](#color-schemes)
 - [Fonts](#fonts)
 - [Images](#images)
+- [Wireframes](#wireframes)
 
 The website is made of of 3 pages:
 
@@ -59,10 +66,14 @@ The footer is a simple 4 column boostrap template that I customised to showcase 
 
 The main colour scheme consists of a solid black (rgb(0, 0, 0)) & a slightly dark shade of red (rgb(216, 14, 14)). Initially i had used a bright red for the site however it was too bright so I opted for the darker which i beleive it easier to look at.
 
-Other colours include (#e6e6e6) for the gallery background, again to make the page easier to view.
 Black rgb(0,0,0)
+![Alt text](assets/images/colorschemeblack.png)
+
 Red rgb(216,14,14)
-Grey (#e6e6e6)
+![Alt text](assets/images/colorschemered.png)
+
+Mercury (#e6e6e6)
+![Alt text](assets/images/colorschememercury.png)
 
 # Fonts
 
@@ -75,3 +86,5 @@ I have used 'Oswald' for paragraphs and subheadings. I beleive it fits well with
 # Images
 
 All images where used from Unsplash.com
+
+# Wireframes
