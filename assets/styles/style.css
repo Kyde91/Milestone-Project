@@ -345,7 +345,6 @@ li {
 .footer-container {
   border-top: 2px solid rgb(216, 14, 14);
   background: black;
-  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100vw;
