@@ -157,7 +157,7 @@ I deployed my website using GitPages. To do this, the steps are as follows:
 
 ![Alt text](assets/images/syncchanges.png)
 
-- Go to your repository, you will see that the changes have been made. on the right side of the main branch you should see the 'Deployments link'.
+- Go to your repository, you will see that the changes have been made. On the right side of the main branch you should see the 'Deployments link'.
 
 ![Alt text](assets/images/deploymentstab.png)
 
