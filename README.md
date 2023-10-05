@@ -80,8 +80,10 @@ Mercury (#e6e6e6)
 I used google fonts.
 
 I chose 'Ultra' for the bandicaps branding and headers in the navbar as it gives a 'Wild West feel' incorporating the name 'Bandit' which is what bandicaps is Bandit + Golf Handicap.
+![Alt text](assets/images/Typography.Ultra.png)
 
 I have used 'Oswald' for paragraphs and subheadings. I beleive it fits well with 'Ultra', it doesn't make 'Ultra' look out of place and is an easy font to read.
+![Alt text](assets/images/typography.oswald.png)
 
 # Images
 
