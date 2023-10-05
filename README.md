@@ -9,6 +9,13 @@ This is my first milestone project for CodeInstitute. The requirements are to cr
 # Contents
 
 - [Home](#home)
+- [Gallery](#gallery)
+- [Members](#members)
+- [Navbar](#navbar)
+- [Footer](#footer)
+- [Color Schemes](#color-schemes)
+- [Fonts](#fonts)
+- [Images](#images)
 
 The website is made of of 3 pages:
 
