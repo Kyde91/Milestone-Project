@@ -139,6 +139,23 @@ Bootstrap & GitHub
 
 # Deployment
 
+I deployed my website using GitPages.
+
+## How to Clone
+
+- Log into your account on github
+- Go to the repository of this project /Kyde91/Milestone-Project/
+- Click on the code button, and copy your preferred clone link.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+  How to Fork
+
+## To fork the repository:
+
+- Log in (or sign up) to Github.
+- Go to the repository for this project, Kyde91/Milestone-Project
+- Click the Fork button in the top right corner.
+
 # Testing & Validation:
 
 ## Manual testing
