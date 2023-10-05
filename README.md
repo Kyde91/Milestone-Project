@@ -30,8 +30,6 @@ This is my first milestone project for CodeInstitute. The requirements are to cr
 - [Testing & Validation](#testing--validation)
 - [Performance](#performance)
 
-The website is made of of 3 pages:
-
 # Home
 
 When creating the initial wireframes for the Home page, I wanted the user to have a good first impression. The page needed to feel welcoming but also interesting with a simple and sleek design. It would be hard for someone who doesn't know what a golf society is to understand what this website could be if it was to 'busy' on the first page, having gained the interest of the user I have made it easy for them to find out more through the 'about us' button.
